@@ -1,0 +1,20 @@
+REST: arquitectura de software
+
+Pasos terminal:
+1. npm init -Y
+2. npm i express -E
+3. node --watch api.js en scripts || nodemon
+
+zod: herramienta para validar request
+crypto: biblioteca nativa de node.js para crear universal unique identifier
+
+app.use(express.json()) --> middleware que analiza y procesa las solicitudes HTTP en formato JSON
+app.disable('x-powered-by') --> deshabilita el encabezado x-povered-by en las respuestas HTTP, oculta info sobre el servidor, mayor seguridad
+
+CORS (Cross-Origin Resource Sharing) --> mecanismo de seguridad que restringe si ese recurso lo puedes utilizar en un origen. sólo funciona en el navegador
+métodos normales: GET/HEAD/POST
+métodos complejos: PUT/PATCH/DELETE
+CORS pre-flight --> petición especial OPTIONS
+app.use(cors()) --> middleware *
+
+npx servor ./web

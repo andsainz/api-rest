@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "director": "Frank Darabont",
+        "duration": 2,
+        "genre": "Drama",
+        "rate": 9.3
+    },
+    {
+        "id": "2",
+        "title": "The Godfather",
+        "year": "1972",
+        "director": "Francis Ford Coppola",
+        "duration": "2h 55min",
+        "genre": "Crime, Drama",
+        "rate": "9.2"
+    },
+    {
+        "id": "3",
+        "title": "The Dark Knight",
+        "year": "2008",
+        "director": "Christopher Nolan",
+        "duration": "2h 32min",
+        "genre": "Action, Crime, Drama",
+        "rate": "9.0"
+    },
+    {
+        "id": "4",
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "director": "Quentin Tarantino",
+        "duration": "2h 34min",
+        "genre": "Crime, Drama",
+        "rate": "8.9"
+    },
+    {
+        "id": "5",
+        "title": "Fight Club",
+        "year": "1999",
+        "director": "David Fincher",
+        "duration": "2h 19min",
+        "genre": "Drama",
+        "rate": "8.8"
+    },
+    {
+        "id": "6",
+        "title": "Forrest Gump",
+        "year": "1994",
+        "director": "Robert Zemeckis",
+        "duration": "2h 22min",
+        "genre": "Drama, Romance",
+        "rate": "8.8"
+    },
+    {
+        "id": "7",
+        "title": "The Matrix",
+        "year": "1999",
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "duration": "2h 16min",
+        "genre": "Action, Sci-Fi",
+        "rate": "8.7"
+    },
+    {
+        "id": "8",
+        "title": "Goodfellas",
+        "year": "1990",
+        "director": "Martin Scorsese",
+        "duration": "2h 26min",
+        "genre": "Biography, Crime, Drama",
+        "rate": "8.7"
+    },
+    {
+        "id": "9",
+        "title": "Schindler's List",
+        "year": "1993",
+        "director": "Steven Spielberg",
+        "duration": "3h 15min",
+        "genre": "Biography, Drama, History",
+        "rate": "8.9"
+    },
+    {
+        "id": "10",
+        "title": "Inception",
+        "year": "2010",
+        "director": "Christopher Nolan",
+        "duration": "2h 28min",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rate": "8.8"
+    }
+]
