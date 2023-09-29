@@ -15,6 +15,22 @@ CORS (Cross-Origin Resource Sharing) --> mecanismo de seguridad que restringe si
 métodos normales: GET/HEAD/POST
 métodos complejos: PUT/PATCH/DELETE
 CORS pre-flight --> petición especial OPTIONS
-app.use(cors()) --> middleware *
+app.use(cors()) --> middleware TODO
 
 npx servor ./web
+
+"type":"module" --> ESmodules
+
+En commonJS las extensiones no son obligatorias porque node las resuelve internamente
+en ESmodules SÍ es obligatorio
+no se puede importar .json en EMmodules, lo interpreta como js
+FORMA 1 DE IMPORTAR UN JSON A ESMODULES
+import fs from 'node:fs' //importo filesystem de nodejs
+const movies = JSON.parse(fs.readFileSync('/movies.json', 'uft-8')) //lee de forma síncrona el fichero .json y lo parsea a un json
+
+FORMA 2 DE IMPORTAR UN JSON A ESMODULES
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url) //dirección del archivo actual
+const movies = require('./movies.json')
+
+si hay un async/await es NECESARIO manejar los errores try/catch

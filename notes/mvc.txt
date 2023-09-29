@@ -1,0 +1,14 @@
+MVC: patrón de arquitectura
+modelo: lógica, estructura de datos, accede a la bd, actualiza info
+vista: interactúa con el usuario, presenta los datos, envía las acciones
+controlador: intermediario entre modelo y vista. responde a las entradas del usuario
+
+M da los datos al C
+C inicia la V con los datos
+la V interactúa con el C
+el C hace CRUD con el modelo
+el modelo envía los datos al controlador
+
+Modelo: mysql, mongodb...
+
+Las validaciones se pueden hacer en los 3, necesario en el modelo y en el controlador
